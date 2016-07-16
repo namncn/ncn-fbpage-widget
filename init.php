@@ -14,7 +14,7 @@ Domain Path: /languages/
 define( 'NCN_DIR_PATH', plugin_dir_path( __FILE__ ) );
 define( 'NCN_DIR_URL', plugin_dir_url( __FILE__ ) );
 
-load_theme_textdomain( 'namncn', NCN_DIR_PATH . '/languages' );
+load_plugin_textdomain( 'namncn', false, NCN_DIR_PATH . '/languages' );
 
 if ( ! function_exists( 'ncn_loader' ) ) {
 	/**

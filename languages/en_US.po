@@ -1,0 +1,234 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NCN Facebook Page Widget\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Sat Jul 16 2016 18:21:10 GMT+0700 (ICT)\n"
+"PO-Revision-Date: Sat Jul 16 2016 18:29:26 GMT+0700 (ICT)\n"
+"Last-Translator: namncn <nam.truong.ncn@gmail.com>\n"
+"Language-Team: \n"
+"Language: English\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: en_US\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "WebMaestro Settings"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://webmaestro.fr/wordpress-settings-api-options-pages"
+msgstr ""
+
+#. Author of the plugin
+msgid "Etienne Baudry"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://webmaestro.fr"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Simplified options system for WordPress. Generates a default page for "
+"settings."
+msgstr ""
+
+#: ../vendor/wm-settings/plugin.php:82
+msgid "Custom Settings"
+msgstr ""
+
+#: ../vendor/wm-settings/plugin.php:95
+msgid "Save Settings"
+msgstr ""
+
+#: ../vendor/wm-settings/plugin.php:96
+msgid "Reset Settings"
+msgstr ""
+
+#: ../vendor/wm-settings/plugin.php:98
+msgid "Settings saved."
+msgstr ""
+
+#: ../vendor/wm-settings/plugin.php:253
+msgid "Settings have been reset to their default values."
+msgstr ""
+
+#: ../vendor/wm-settings/plugin.php:429
+#, php-format
+msgid ""
+"Sorry but \"<strong>%s</strong>\" is not a valid <em>Customize Control</em> "
+"type quite yet."
+msgstr ""
+
+#: ../vendor/wm-settings/plugin.php:473
+msgid "Do you really want to reset all these settings to their default values ?"
+msgstr ""
+
+#: ../vendor/wm-settings/plugin.php:556 ../vendor/wm-settings/plugin.php:570 ..
+#: /vendor/wm-settings/plugin.php:608
+msgid "No options defined."
+msgstr ""
+
+#: ../vendor/wm-settings/plugin.php:595
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: ../vendor/wm-settings/plugin.php:597
+#, php-format
+msgid "Remove %s"
+msgstr ""
+
+#: ../vendor/wm-settings/plugin.php:623
+msgid "No action defined."
+msgstr ""
+
+#. Name of the plugin
+msgid "NCN Facebook Page Widget"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://facebook.com/12a4.love.t"
+msgstr ""
+
+#. Author of the plugin
+msgid "Nam NCN"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://facebook.com/truongvannam.ncn"
+msgstr ""
+
+#. Description of the plugin
+msgid "Facebook page widget plugin by Nam NCN. You can use on sidebar."
+msgstr ""
+
+#: ../inc/ncn-fbpage-widget-class.php:25
+msgid "Facebook Page"
+msgstr ""
+
+#: ../inc/ncn-fbpage-widget-class.php:26
+msgid "Show your Facebook page on sidebar."
+msgstr ""
+
+#: ../inc/ncn-fbpage-widget-class.php:136
+msgid "Tiêu đề:"
+msgstr "Title"
+
+#: ../inc/ncn-fbpage-widget-class.php:140
+msgid "URL of Facebook page:"
+msgstr ""
+
+#: ../inc/ncn-fbpage-widget-class.php:144
+msgid "Chiều rộng:"
+msgstr "Width:"
+
+#: ../inc/ncn-fbpage-widget-class.php:146
+msgid ""
+"Chiều rộng pixel của widget. Tối thiểu là 180 và tối đa là 500. Có thể bỏ "
+"qua vì bạn có thể dùng chức năng hiển thị rộng bằng khung chưa phía dưới."
+msgstr ""
+"Pixel width of the widget. A minimum of 180 and a maximum of 500. It can be "
+"ignored because you can use the display function is not as wide as the "
+"bottom bracket."
+
+#: ../inc/ncn-fbpage-widget-class.php:149
+msgid "Chiều cao:"
+msgstr "Height:"
+
+#: ../inc/ncn-fbpage-widget-class.php:151
+msgid "Chiều cao pixel của widget. Tối thiểu là 70."
+msgstr "Pixel height of the widget. The minimum is 70."
+
+#: ../inc/ncn-fbpage-widget-class.php:154
+msgid "Tab hiển thị:"
+msgstr "Tab display:"
+
+#: ../inc/ncn-fbpage-widget-class.php:156
+msgid ""
+"Các tab sẽ hiển thị, ví dụ : timeline, events, messages. Sử dụng danh sách "
+"được phân tách bằng dấu phẩy để thêm nhiều tab, ví dụ : timeline, events."
+msgstr ""
+"The tab will show, example: timeline, events, messages. Using a list "
+"separated by commas to add multiple tabs, example: timeline and events."
+
+#: ../inc/ncn-fbpage-widget-class.php:160
+msgid "Hiển thị ảnh bìa nhỏ"
+msgstr "Show small header cover"
+
+#: ../inc/ncn-fbpage-widget-class.php:164
+msgid "Ẩn cmnl ảnh bìa"
+msgstr "Hide header cover"
+
+#: ../inc/ncn-fbpage-widget-class.php:168
+msgid "Hiển thị rộng bằng khung chứa"
+msgstr "Show full width"
+
+#: ../inc/ncn-fbpage-widget-class.php:172
+msgid "Hiển thị ảnh đại diện bạn bè"
+msgstr "Show friend avatar"
+
+#: ../inc/ncn-fbpage-widget-class.php:176
+msgid "Ẩn nút kêu gọi hành động (nếu có)"
+msgstr "Hide call to action button"
+
+#: ../inc/ncn-fbpage-widget-setting.php:9
+msgid "Trang cài đặt NCN Facebook Page"
+msgstr "NCN Facebook Page Settings"
+
+#: ../inc/ncn-fbpage-widget-setting.php:11
+msgid "Cài đặt NCN Facebook Page"
+msgstr "Setting NCN Facebook Page"
+
+#: ../inc/ncn-fbpage-widget-setting.php:19
+msgid "App ID - ID ứng dụng facebook của bạn?"
+msgstr "App ID"
+
+#: ../inc/ncn-fbpage-widget-setting.php:20
+msgid ""
+"Nếu bạn chưa có App ID, truy cập link sau để tạo 1 App ID facebook: https:"
+"//developers.facebook.com/docs/apps/register."
+msgstr ""
+"If you haven't App ID, access this link to create one: https://developers."
+"facebook.com/docs/apps/register."
+
+#: ../inc/ncn-fbpage-widget-setting.php:24
+msgid "Nhúng SDK JavaScript vào website?"
+msgstr "Include SDK Javascript in website."
+
+#: ../inc/ncn-fbpage-widget-setting.php:25
+msgid ""
+"SDK JavaScript là 1 đoạn mã javascript quan trọng để facebook page có thể "
+"hiển thị, nếu website bạn đã nhúng đoạn mã này rồi thì không cần bước này "
+"nữa."
+msgstr ""
+"JavaScript SDK is one important piece of javascript code facebook page can "
+"display, if the website you embed this code then this step is not necessary "
+"anymore."
+
+#: ../inc/ncn-fbpage-widget-setting.php:29
+msgid "Chọn ngôn ngữ của Facebook"
+msgstr "Choose language"
+
+#: ../inc/ncn-fbpage-widget-setting.php:30
+msgid "Bạn muốn Facebook page hiển thị theo ngôn ngữ nào thì chọn vào ngôn ngữ đó."
+msgstr "Want Facebook page displayed in any language then choose in that language."
+
+#: ../inc/ncn-fbpage-widget-setting.php:32
+msgid "Việt Nam"
+msgstr ""
+
+#: ../inc/ncn-fbpage-widget-setting.php:33
+msgid "English (US)"
+msgstr ""

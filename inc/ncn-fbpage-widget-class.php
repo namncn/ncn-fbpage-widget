@@ -22,7 +22,7 @@ class NCN_Facebook_Page_Widget extends WP_Widget {
 	public function __construct() {
 		parent::__construct(
 			'ncn_facebook_page_widget',
-			__( 'Facebook Page', 'namncn' ),
+			__( 'NCN: Facebook Page', 'namncn' ),
 			array( 'description' => __( 'Show your Facebook page on sidebar.', 'namncn' ) )
 		);
 	}
@@ -174,6 +174,11 @@ class NCN_Facebook_Page_Widget extends WP_Widget {
 			<p>
 				<input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id('data_hide_cta'); ?>" name="<?php echo $this->get_field_name('data_hide_cta'); ?>"<?php checked( $data_hide_cta ); ?> />
 				<label for="<?php echo $this->get_field_id('data_hide_cta'); ?>"><?php _e( 'Ẩn nút kêu gọi hành động (nếu có)' ); ?></label>
+			</p>
+			<p>
+				<small>
+					<?php print 'Ủng hộ tác giả plugin này, soạn tin: <br /> TT < cach > FBPW < cach > NCN gửi 8585 (5.000đ).'; // WPCS: XSS OK. ?>
+				</small>
 			</p>
 		<?php
 	}
